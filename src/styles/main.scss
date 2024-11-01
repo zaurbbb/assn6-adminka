@@ -1,0 +1,21 @@
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+
+@import "app/app";
+@import "app/loader";
+
+@import "base/typography";
+@import "base/reset";
+
+@import "vendors/antd";
+
+.ant-typography {
+  &-secondary {
+    font-family: "InterThin", sans-serif;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-size: 14px;
+  }
+}

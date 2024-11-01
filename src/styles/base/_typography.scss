@@ -1,0 +1,60 @@
+/**
+* @desc         adds default text styles
+* @requires     none
+*/
+
+@font-face {
+  font-family: "InterLight";
+  src: url("/fonts/Inter-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterMedium";
+  src: url("/fonts/Inter-Medium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: url("/fonts/Inter-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterSemiBold";
+  src: url("/fonts/Inter-SemiBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterThin";
+  src: url("/fonts/Inter-Thin.otf") format("truetype");
+}
+
+//body {
+//  line-height: $base-line-height;
+//}
+//
+//body,
+//input,
+//select,
+//textarea {
+//  font-family: $ff-light !important;
+//}
+//
+//// headings and paragraph
+//h1,
+//h2,
+//h3,
+//h4,
+//h5,
+//h6 {
+//  font-style: normal;
+//  font-family: $ff-semibold;
+//}
+//
+//h1 {
+//  font-size: $fs-regular;
+//}
+//
+//pre,
+//code {
+//  font-family: $ff-code;
+//}

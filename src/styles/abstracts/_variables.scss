@@ -1,0 +1,91 @@
+/**
+* @desc         set up variables.
+* @requires     none
+*/
+
+// [color - variables]
+// branding
+$primary-dark-color: #5F1957;
+$primary-light-color: #8D7AB5;
+$secondary-dark-color: #CD12B8;
+$secondary-light-color: #ffffff;
+$info-light-color: #FFE600;
+$info-dark-color: #ECAFAF;
+
+// table colors
+$table-header-color: $secondary-light-color;
+$table-cell-color: $secondary-light-color;
+
+// header colors
+$header-color: transparent;
+
+// aside colors
+$aside-color: rgba($secondary-light-color, 0.8);
+
+// placeholder colors
+$placeholder-color: rgba($primary-light-color, 0.6);
+
+// button colors
+$greeting-button-color: rgba($primary-dark-color, 0.8);
+$greeting-button-hover-color: $primary-dark-color;
+$greeting-button-shadow: 4px 4px 20px $primary-dark-color;
+
+// font size
+$fs-xxsmall: 0.2rem;
+$fs-xsmall: 0.4rem;
+$fs-small: 0.8rem;
+$fs-regular: 1rem;
+$fs-medium:  1.2rem;
+$fs-large: 1.6rem;
+$fs-xlarge: 2.4rem;
+$fs-xxlarge: 3.2rem;
+//$fs-xxlarge: 3.6rem;
+
+
+// webkit
+$webkit-bg: rgba($primary-dark-color, .8);
+
+// font family
+$ff-bold: "SansationBold", sans-serif;
+$ff-bold-italic: "SansationBoldItalic", sans-serif;
+$ff-italic: "SansationItalic", sans-serif;
+$ff-light: "SansationLight", sans-serif;
+$ff-light-italic: "SansationLightItalic", sans-serif;
+$ff-regular: "SansationRegular", sans-serif;
+$ff-code: Consolas, Monaco, "Lucida Console", monospace;
+
+// font weights
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+
+// inline hights
+$base-line-height: normal;
+
+// [action - variables]
+// hover
+$primary-hover-color-1: rgba($primary-dark-color, 0.2);
+$primary-hover-color-2: rgba($primary-dark-color, 0.4);
+$primary-hover-color-3: rgba($primary-dark-color, 0.6);
+
+// [breakpoints - variables]
+$xxl: 1400px;
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 540px;
+$xs: 360px;
+
+// [shadow - variables]
+// shadows
+$box-shadow-light: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.06);
+$box-shadow-medium: 0 8px 11px rgba(0, 0, 0, 0.1), 0 9px 12px rgba(0, 0, 0, 0.2);
+
+$text-shadow-light: $secondary-dark-color 1px 1px 5px;
+
+// [border-radius - variable]
+$maximum-border-radius: 100%;
+$element-border-radius: $fs-regular;
+$button-border-radius: $fs-xsmall;
+$collapse-border-radius: 0.5rem;

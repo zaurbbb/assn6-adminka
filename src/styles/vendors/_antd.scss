@@ -1,0 +1,122 @@
+/**
+* @desc         override styles for antd custom
+* @requires     variables, placeholders
+*/
+
+// button
+.ant-btn {
+  @extend %flex-row;
+  @extend %flex-center;
+  //height: auto!important;
+}
+
+.snackbar {
+  @extend %absolute-bottom;
+}
+
+// flex
+.ant-flex {
+  width: 100% !important;
+}
+
+// input
+.ant-input-prefix {
+  margin-right: $fs-small !important;
+}
+
+// modal
+.ant-modal-header {
+  margin-bottom: $fs-large !important;
+}
+
+.ant-modal-content {
+  @extend %absolute-center;
+  min-width: 70% !important;
+  max-width: 80% !important;
+}
+
+.ant-modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+// tabs
+.ant-tabs {
+  overflow-x: auto;
+  width: auto;
+}
+
+.ant-tabs-nav {
+  margin: 0 !important;
+
+  &:before {
+    display: none;
+  }
+}
+
+.ant-tabs-nav-list {
+  gap: $fs-xsmall !important;
+}
+
+.ant-tabs-tab {
+  padding: $fs-xsmall $fs-regular !important;
+  border-radius: $fs-xlarge !important;
+}
+
+// menu
+.ant-menu {
+  border-radius: $fs-regular !important;
+}
+
+.ant-menu-item {
+  @extend %flex-row;
+  align-items: center;
+}
+
+// grid
+.ant-col {
+  @extend %flex-row;
+  align-items: center;
+}
+
+// form
+.ant-form-item-control-input {
+  width: 100%;
+}
+
+.ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.ant-form-item-explain {
+  margin-bottom: $fs-regular!important;
+}
+
+// layout
+.ant-layout-sider-children {
+  @extend %flex-column;
+  justify-content: space-between;
+}
+
+// custom selection checkboxes
+.custom-selection {
+  .ant-checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: $fs-regular;
+  }
+}
+
+// input number
+.ant-input-number-affix-wrapper {
+  width: 100%!important;
+}
+.ant-input-number-input-wrap {
+  padding-left: 5px!important;
+}
+
+// table
+.ant-table-cell {
+  text-overflow: ellipsis!important;
+
+}

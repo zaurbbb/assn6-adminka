@@ -1,0 +1,1 @@
+export const onTableFilter = (value, record, key) => record[key].indexOf(value as string) === 0;

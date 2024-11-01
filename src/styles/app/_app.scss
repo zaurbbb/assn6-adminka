@@ -1,0 +1,53 @@
+/**
+* @desc         app styles
+* @requires     variables, placeholders
+*/
+
+:root {
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+}
+
+html {
+  @extend %no-scrollbar;
+}
+
+body {
+  overflow-x: hidden;
+
+  margin: 0;
+  padding: 0;
+
+  background: #f5f5f5;
+}
+
+header {
+  z-index: 2;
+}
+@media(hover: hover) {
+  button:hover {
+    background-color: initial;
+  }
+}
+
+section {
+  padding: 0 $fs-large;
+
+  & > h1,
+  & > h2,
+  & > h3,
+  & > h4,
+  & > h5,
+  & > h6 {
+    margin-bottom: $fs-large!important;
+  }
+}
+
+main {
+  overflow-x: hidden;
+  @extend %flex-column;
+  gap: $fs-xxlarge;
+}
+
+input, textarea {
+  width: 100% !important;
+}
