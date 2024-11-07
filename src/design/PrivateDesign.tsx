@@ -8,6 +8,7 @@ import {
   ForkOutlined,
   GiftOutlined,
   GlobalOutlined,
+  HistoryOutlined,
   HomeOutlined,
   LogoutOutlined,
   MedicineBoxOutlined,
@@ -125,11 +126,12 @@ function Design({ children }) {
           label: <Link to="/categories">Категории</Link>,
           icon: <UnorderedListOutlined />,
         },
+        {
+          key: '/logs',
+          label: <Link to="/logs">История</Link>,
+          icon: <HistoryOutlined />,
+        },
         // {
-        //   key: '/brands',
-        //   label: <Link to="/brands">Бренды</Link>,
-        //   icon: <AntDesignOutlined />,
-        // }, {
         //   key: '/characteristics',
         //   label: <Link to="/characteristics">Характеристики</Link>,
         //   icon: <DotChartOutlined />,
@@ -232,7 +234,7 @@ function Design({ children }) {
     <Layout style={layoutStyle}>
       <Sider style={siderStyle}>
         <Space direction="vertical">
-          <Typography.Title level={2}>Assn 6</Typography.Title>
+          <Typography.Title level={2}>Adminka</Typography.Title>
           <Menu
             mode="inline"
             style={menuStyle}
